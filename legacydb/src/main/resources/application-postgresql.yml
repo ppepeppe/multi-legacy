@@ -1,0 +1,14 @@
+spring:
+  config:
+    activate:
+      on-profile:
+        - postgresql
+  datasource:
+    url: jdbc:postgresql://localhost:5432/legacy
+    username: postgres
+    password: 1234
+    driverClassName: org.postgresql.Driver
+
+mybatis:
+  mapper-locations:
+    - classpath:mapper-postgresql/*.xml
