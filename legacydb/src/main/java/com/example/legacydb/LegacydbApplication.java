@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LegacydbApplication {
+public class LegacyDbApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(LegacydbApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(LegacyDbApplication.class, args);
+	}
 
 }

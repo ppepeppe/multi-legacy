@@ -1,4 +1,4 @@
-package com.example.legacydb.dao;
+package com.example.legacydb.dao.legacydb;
 
 import com.example.legacydb.model.Member;
 import org.apache.ibatis.annotations.Mapper;
@@ -6,6 +6,6 @@ import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
 @Mapper
-public interface MemberDao {
+public interface LegacyMemberDao {
     List<Member> getMemberList();
 }
